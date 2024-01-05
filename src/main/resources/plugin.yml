@@ -1,0 +1,12 @@
+name: WorldHandler
+version: '${project.version}'
+main: me.oscarcusick.worldhandler.WorldHandler
+api-version: '1.20'
+commands:
+  Enter:
+    usage: "/Enter <GameName>"
+    description: "Joins the player to another World/Game for another play style"
+  TestWorld:
+    usage: "/TestWorld"
+    description: "Join the player to the original 'world' where as all the others are custom"
+    permission: op
